@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 13: Jardineros de la Creatividad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 13:Jardineros de la Creatividad</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Diferenciar entre inspiración, copia y plagio.</li>
+                                        <li>Reconocer y respetar los derechos de autor y la propiedad intelectual.</li>
+                                        <li>Distinguir entre uso creativo, uso responsable y plagio al trabajar con herramientas de IA.</li>
+                                        <li>Reconocer cuándo una obra respeta derechos y cuándo los vulnera.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Veredicto para dos casos de prueba (copia vs. inspiración).</li>
+                                        <li>Creación de "Los 3 Derechos del Creador Gnius" en equipo.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuadernos y colores.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para estimular la creatividad y la propiedad.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 2. Activación: Tormenta de Ideas en Un Minuto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Atención, Jardineros de Gnius Club! 🌿 ¡A sus invernaderos creativos! Para hacer que nuestras ideas florezcan, vamos a una Tormenta de Ideas en Un Minuto. En equipos, anoten en su cuaderno todo lo que se les ocurra sobre el tema: 'Cosas que tienen un dueño'. ¡Puede ser cualquier cosa!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Los equipos escriben sus ideas. Al final, el maestro pide que compartan una idea física (ej. una bici) y una idea creativa (ej. una canción).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! ¿Qué tenemos? ¡Un celular! ¡Una casa! ¡Excelente! ¿Y algo que no se pueda tocar? ¡Una historia! ¡Un dibujo! ¡Wow! Esa idea de que las creaciones también tienen dueño es el súper nutriente para nuestra misión de hoy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 3. Recuerdo Relámpago: El Código del Creador.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genios! Antes de plantar, recordemos nuestro código de la misión pasada: ADMIRAR, MEZCLAR y CREAR. Pero eso nos deja una pregunta: ¿Por qué es tan importante el último paso, 'CREAR algo nuevo'? ¿Qué pasa si un DJ solo ADMIRA y luego... COPIA la pista exacta de otro? 🤔</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>En parejas, discuten la pregunta. El maestro conecta sus respuestas con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Discutan con su compañero. ¿Cómo se sentiría el DJ original? (Pausa). ¡'Enojado', 'triste', 'le robaron'! ¡Exacto! Copiar no es un homenaje, es un robo de creatividad. Hoy vamos a convertirnos en expertos en proteger nuestro jardín y respetar los jardines de los demás.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de botánica y originalidad.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyectar Diapositiva 4. Objetivos de la Misión. (Imagen de un jardinero tomando UNA semilla de una flor para plantar una flor nueva, completamente diferente pero con un color similar).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en JARDINEROS DE LA CREATIVIDAD. El trabajo de otros son flores hermosas. Podemos tomar una semilla de inspiración de ellas (un color, una forma), pero nuestra tarea es plantarla en nuestro propio jardín y, con nuestra magia, ¡hacer crecer una flor completamente nueva y única! 🌸</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los estudiantes escriben o dibujan su "I Can Statement" y lo comparten.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Cada jardinero cultiva su especialidad. La mía es: 'Yo puedo tomar el azul de una rosa de fantasía para pintar mi propio dragón de hielo'. Ahora ustedes, en su diario de jardinería, completen: 'Hoy mi flor será...'.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar curiosidad con una historia que ilustra la diferencia entre inspiración y plagio.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 5. Brain Boost: El Caso del Cómic del Gato-Ninja.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Les presento a Maya. Dibuja un cómic increíble sobre 'Miau-ruto', un gato ninja naranja que lanza bolas de estambre. Lo publica en el blog de la escuela. Su amigo Leo lo ve y le encanta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 6. Las Dos Versiones de Leo. (Imagen de dos cómics: uno con el mismo gato-ninja naranja pero en otra pose, y otro con un perro-samurái azul).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Versión 1: Leo le pide a una IA: 'Redibuja a Miau-ruto, el gato ninja de Maya, pero saltando'. El resultado es casi idéntico. Versión 2: Leo le pide a la IA: 'Inspírate en un animal guerrero y crea un perro samurái azul llamado 'Guau-taro''. Pregunta Provocadora: Si Maya viera los dos cómics, ¿cuál sentiría que es una copia y cuál sentiría que es un homenaje creativo?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conexión a la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Claro! ¡La Versión 1 es una copia! कॉपी. La Versión 2 es una idea nueva, una flor diferente que creció de la misma semilla de 'animal guerrero'. ¡Ser un buen jardinero es saber usar las semillas, no robar las flores! Hoy vamos a ser los jueces de ese jardín.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar la identificación de copia vs. inspiración en un entorno gamificado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyectar Diapositiva 7. Gamer Express: El Juez Creativo y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de entrar a la corte! En el Gamer Express, jueguen la misión 'Juez de la Creatividad'. Se les mostrará una obra original y luego varias 'inspiradas'. Su misión: usar su martillo de juez para sellar cada una como 'COPIA' o 'INSPIRACIÓN'. ¡Los juicios más acertados ganan!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto de análisis y juicio, estableciendo el rol de "El Jurado Creativo".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 8. Challenge: El Tribunal de la Creatividad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han demostrado ser jueces sabios! Ahora, el caso más importante del año. Se convertirán en El Jurado Creativo en un caso real de nuestra galería digital. ¡Silencio en la sala! 🧑‍⚖️</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 3 minutos</h3>
+                            <p>Proyectar Diapositiva 9, mostrando el "Astronauta Triste" y las 3 pruebas. El maestro narra la historia de cada prueba.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Este es el Caso 001: El Astronauta Triste, creado por la Artista A, que estaba orgullosa de su idea.<br> Prueba B: El Artista Bruno vio el dibujo, le gustó y le pidió a una IA (Chat GPT o Gemini): 'Copia el astronauta de A, pero que el traje sea rojo'.<br> Prueba C: La Artista Camila vio el dibujo y le transmitió una sensación de soledad bonita. Le pidió a una IA (Chat GPT o Gemini): 'Crea un buzo en el fondo del mar que se sienta solo pero en paz, usando esos tonos azules'. <br>Prueba D: El Artista Daniel ni siquiera vio el dibujo original. Estaba creando su propio personaje: un fantasma verde y feliz."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 4 minutos</h3>
+                            <p>Proyectar Diapositiva 10. Deliberación y Creación. En sus cuadernos, los equipos discuten y escriben su veredicto para cada prueba, y luego proponen 3 derechos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Deliberen, jurado! En equipo, discutan y anoten su veredicto para las pruebas B y C. ¿Cuál es copia y cuál es inspiración?<br> ¡Pero eso no es todo! Para que esto no vuelva a pasar, ¡necesitamos LEYES! Su tarea final es crear 'Los 3 Derechos del Creador Gnius'. ¿Qué reglas protegerían a todos los artistas? ¡Anótenlas en su cuaderno!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 11. ¡Veredicto y Nuevas Leyes!</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡El jurado ha decidido! De forma grupal, ¿cuál es el veredicto para la Prueba B? (Todos: ¡COPIA!). ¿Y para la C? (Todos: ¡INSPIRACIÓN!). ¡Perfecto! Ahora, ¡escuchemos esas leyes! Equipo 'Justicia Creativa', ¡su primer derecho propuesto! ¡Wow, 'Derecho a ser el dueño de tu propia idea' es increíble! ¡Equipo 'Defensores', el suyo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 12. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Son oficialmente los jurados más sabios y los jardineros más respetuosos! Una última pregunta: ¿Cuál es el juramento que todo creador debería hacer antes de empezar a dibujar, escribir o programar?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 13. El Juramento del Creador Gnius. El maestro guía el juramento.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! Un juramento de respeto y originalidad. Para que lo lleven siempre en su corazón de creadores, esta es nuestra Clave Secreta: el Juramento del Creador Gnius. Yo digo la pregunta, ustedes gritan la respuesta:<br>* Maestro: ¡Mi cerebro es para...! / Alumnos: ¡IMAGINAR! 🧠<br>* Maestro: ¡Mis manos son para...! / Alumnos: ¡CREAR! ✍️<br> * Maestro: ¡Las ideas de otros son para...! / Alumnos: ¡ADMIRAR! ✨<br> * Maestro: ¡Y mi trabajo siempre será...! / Alumnos: ¡MÍO Y ORIGINAL! 🌟</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>El maestro repite el juramento con gestos (señalar la cabeza, las manos, etc.). Lanza la pregunta de conexión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a hacerlo con poder! ¡Señalen su cabeza! '¡IMAGINAR!'... ¡Muestren sus manos! '¡CREAR!'... ¡Genial! Guarden este juramento, porque nos deja una pregunta: Si ya sabemos crear con respeto, ¿cómo nos aseguramos de que nuestras creaciones con IA no causen un daño inesperado en nuestro mundo? 🤔 ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
